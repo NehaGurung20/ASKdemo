@@ -26,9 +26,8 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
       - name: zhu docker Hello World
-  # You may pin to the exact commit or the version.
-  # uses: zhu5201314/DockerContainer_action@ca73a3931c906231b1971a2cf5d5345dc5f0e201
-        uses: zhu5201314/DockerContainer_action@v1.4
+    # You may pin to the exact commit or the version.
+        uses: zhu5201314/DockerContainer_action@ca73a3931c906231b1971a2cf5d5345dc5f0e201
         with:
           # Who to greet
           who-to-greet: orld
